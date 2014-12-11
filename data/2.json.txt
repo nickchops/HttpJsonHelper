@@ -1,0 +1,4 @@
+{
+	"gameShortNames":["ctiv","bch3d","whk"],
+	"ID":40943
+}

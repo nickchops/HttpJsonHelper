@@ -1,0 +1,28 @@
+#!/usr/bin/env mkb
+
+files
+{
+    (source)
+    HttpJsonExample.cpp
+    CHttpJsonHelper.cpp
+    (h)
+    CHttpJsonHelper.h
+}
+
+includepath h
+
+define IW_HTTP_SSL
+
+subprojects
+{
+    iwutil
+    iwhttp
+	jsoncpp
+    ../ExamplesCore
+}
+
+assets
+{
+    (data)
+
+}
